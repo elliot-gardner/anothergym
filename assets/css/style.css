@@ -2,12 +2,42 @@ body{
     background-color: #000;
 }
 
+#logo {
+    float: left;
+    font-size: 300%;
+    padding-left: 20px;
+  }
+
+ #menu ul{
+     margin: 20px;
+ } 
+
+#menu li{
+    list-style-type: none;
+    font-size: 110%;
+    float: right;
+    padding-right: 10px;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color:#fafafa
+}
+
+
 h2{
     text-transform: uppercase;
     color: #fafafa;
 }
 
+#hero-outer{
+    overflow:hidden;
+    width:100%;
+}
+
 #hero-image{
+    padding-top: 30px;
     height: 600px;
     width: 100%;
     background: url("/assets/images/hero.jpg") no-repeat center center;
@@ -23,6 +53,6 @@ h2{
       transform: scale(1);
     }
     to {
-      transform: scale(1.1);
+      transform: scale(1.08);
     }
   }
